@@ -33,12 +33,12 @@ dengan perintah
 git add -A
 git status
 ```
-![alt text](push1.png)
+![alt text](push1.PNG)
 ```
 git commit -m "Add: isi README.md"
 ```
-![alt text](push2.png)
+![alt text](push2.PNG)
 ```
 git push origin edit-readme-1
 ```
-![alt text](push3.png)
+![alt text](push3.PNG)
