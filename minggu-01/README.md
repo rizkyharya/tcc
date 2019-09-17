@@ -1,12 +1,13 @@
-#PRAKTIKUM KCC MINGGU 1
+# PRAKTIKUM KCC MINGGU 1
 
-#####"RIZKY HARYA / 175410001"
+##### "RIZKY HARYA / 175410001"
 
 Langkah 1 pastikan Github sudah terinstal, dapat di cek di CMD
 dengan perintah
 ```git --version```
 
 ![alt text](1.png)
+
 jika belum, dapat diinstal di https://git-scm.com/downloads
 
 Langkah 2 konfigurasi Git
@@ -33,12 +34,12 @@ dengan perintah
 git add -A
 git status
 ```
-![alt text](push1.png)
+![alt text](push1.PNG)
 ```
 git commit -m "Add: isi README.md"
 ```
-![alt text](push2.png)
+![alt text](push2.PNG)
 ```
 git push origin edit-readme-1
 ```
-![alt text](push3.png)
+![alt text](push3.PNG)
