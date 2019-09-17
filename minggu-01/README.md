@@ -1,12 +1,13 @@
-#PRAKTIKUM KCC MINGGU 1
+# PRAKTIKUM KCC MINGGU 1
 
-#####"RIZKY HARYA / 175410001"
+##### "RIZKY HARYA / 175410001"
 
 Langkah 1 pastikan Github sudah terinstal, dapat di cek di CMD
 dengan perintah
 ```git --version```
 
 ![alt text](1.png)
+
 jika belum, dapat diinstal di https://git-scm.com/downloads
 
 Langkah 2 konfigurasi Git
