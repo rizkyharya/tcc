@@ -12,9 +12,9 @@
 apa itu branch : branch adalah cabang, fungsinya adalah untuk merubah isi project anda bila anda takut jika terjadi kesalahan yang besar, nah di branch tersebuat anda bebas merubah isi project anda, setelah anda yakin kemudian dipush di branc anda dengan perintah
 
 ```git push origin edit-minggu-01```
-![alt text](IMG2/bb.PNG)
+![alt text](IMG2/bb.png)
 
 tidak bisa karena belum di pull, maka gunakan perintah pull
 
 ```git pull origin edit-minggu-01```
-![alt text](IMG2/bbb.PNG)
+![alt text](IMG2/bbb.png)
