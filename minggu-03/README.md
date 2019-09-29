@@ -13,7 +13,7 @@ Pengguna tidak memiliki kendali penuh atas aplikasi yang disewa. Pengguna tidak 
 
 Beberapa contoh SAAS.
 - Salesforce.com
-![alt text](salesforce.png)
+![alt text](IMG/salesforce.png)
 - Dropbox
 - Google Services
 - Prezi

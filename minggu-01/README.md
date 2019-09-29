@@ -1,6 +1,6 @@
-# PRAKTIKUM KCC MINGGU 1
+# PRAKTIKUM KCC MINGGU 1 #
 
-##### "RIZKY HARYA / 175410001"
+## RIZKY HARYA / 175410001 ##
 
 Langkah 1 pastikan Github sudah terinstal, dapat di cek di CMD
 dengan perintah
@@ -8,14 +8,14 @@ dengan perintah
 
 ![alt text](1.png)
 
-jika belum, dapat diinstal di https://git-scm.com/downloads
+jika belum, dapat diinstal di <https://git-scm.com/downloads>
 
 Langkah 2 konfigurasi Git
 buka cmd dan ketikan perintah
-```
-git config --global user.name "Nama Anda di GitHub"
-git config --global user.email email@domain.tld
-```
+
+```git config --global user.name "Nama Anda di GitHub"```
+```git config --global user.email email@domain.tld```
+
 ![alt text](2.png)
 
 Langkah 3 Kelola repo anda
@@ -30,16 +30,16 @@ kelola file tersebut sesuai keinginan anda
 
 kemudian di Push
 dengan perintah
-```
+
 git add -A
 git status
-```
+
 ![alt text](push1.PNG)
-```
+
 git commit -m "Add: isi README.md"
-```
+
 ![alt text](push2.PNG)
-```
+
 git push origin edit-readme-1
-```
+
 ![alt text](push3.PNG)
