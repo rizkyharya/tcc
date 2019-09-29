@@ -32,4 +32,8 @@ hanya sampai di keterangan no.2, kemudian lihat di branch edit-minggu-01
 
 project sampai pada keterangan no 3. nah jika sudah yakin maka di merge agar perubahan sampai pada branch master.
 
-4. merge
+4. merge, kembali ke branch master dahulu dengan peintah
+
+```git checkout master```
+
+
