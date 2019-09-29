@@ -40,4 +40,4 @@ project sampai pada keterangan no 3. nah jika sudah yakin maka di merge agar per
 
 ![alt text](IMG2/c.PNG)
 
-![alt text](IMG2/d.PNG)
+![alt text](IMG2/d.png)
