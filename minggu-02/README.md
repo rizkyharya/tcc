@@ -38,5 +38,5 @@ project sampai pada keterangan no 3. nah jika sudah yakin maka di merge agar per
 
 ```git merge edit-minggu-01```
 
-![alt text](IMG2/c.png)
+![alt text](IMG2/c.PNG)
 
