@@ -22,10 +22,14 @@ buka cmd dan ketikan perintah
 Langkah 3 Kelola repo anda
 buka akun Github anda kemudian klik bagian **+** New repository
 ![alt text](new-repo.png)
+
 kemudian namai repo anda lalu klik **create repository**
-![alt text](3.png)
+
+![alt text](3.PNG)
+
 setelah itu clone repo anda menggunakan perintah
 ```git clone https://github.com/rizkyharya/tcc.git```
+
 kemudian membuat file bernama **README.md**
 kelola file tersebut sesuai keinginan anda
 
