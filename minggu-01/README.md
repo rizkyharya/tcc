@@ -14,6 +14,7 @@ Langkah 2 konfigurasi Git
 buka cmd dan ketikan perintah
 
 ```git config --global user.name "Nama Anda di GitHub"```
+
 ```git config --global user.email email@domain.tld```
 
 ![alt text](2.png)
