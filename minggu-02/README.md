@@ -4,8 +4,13 @@
 
 ![alt text](IMG2/aa.png)
 
-2. menuju ke brand baru dengan perintah 
+2. menuju ke brand baru dengan perintah
 
-``` git checkout -b edit-minngu-01```
+```git checkout -b edit-minggu-01```
 
 ![alt text](IMG2/a.PNG)
+
+3. setelah ke brand baru, lanjutkan perubahan isi README.md
+apa itu branch : branch adalah cabang, fungsinya adalah untuk merubah isi project anda bila anda takut jika terjadi kesalahan yang besar, nah di branch tersebuat anda bebas merubah isi project anda, setelah anda yakin kemudian dipush di branc anda dengan perintah
+
+``` ```
