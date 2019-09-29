@@ -38,6 +38,7 @@ dengan perintah
 
 git add -A
 git status
+<<<<<<< HEAD
 
 ![alt text](push1.PNG)
 
@@ -48,3 +49,15 @@ git commit -m "Add: isi README.md"
 git push origin edit-readme-1
 
 ![alt text](push3.PNG)
+=======
+```
+![alt text](push1.PNG)
+```
+git commit -m "Add: isi README.md"
+```
+![alt text](push2.PNG)
+```
+git push origin edit-readme-1
+```
+![alt text](push3.PNG)
+>>>>>>> 2c6e5a1df1fdadb59e55f3bd55d027ded0dd9ec6
