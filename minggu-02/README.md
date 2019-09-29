@@ -36,4 +36,7 @@ project sampai pada keterangan no 3. nah jika sudah yakin maka di merge agar per
 
 ```git checkout master```
 
+```git merge edit-minggu-01```
+
+![alt text](IMG2/c.png)
 
