@@ -15,6 +15,8 @@ Beberapa contoh SAAS.
 - Salesforce.com
 ![alt text](IMG/salesforce.png)
 - Dropbox
+![alt text](IMG/dropbox.jpg)
 - Google Services
+![alt text](IMG/servis.png)
 - Prezi
 
