@@ -19,4 +19,4 @@ Beberapa contoh SAAS.
 - Google Services
 ![alt text](IMG/servis.png)
 - Prezi
-
+![alt text](IMG/prezi.png)
