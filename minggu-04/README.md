@@ -1,5 +1,17 @@
-RIZKY HARYA R 175410001
+# PRAKTIKUM KCC MINGGU 4
 
-PRAKTIKUM KCC
+CRM ?
+![alt text](IMG4/crm.PNG)
 
-GITHUB
+CRM — Customer Relationship Management — adalah software sistem informasi yang membantu individu dan tim memaksimalkan komunikasi dengan pelanggan dan upaya penjualan mereka. CRM dapat membangun hubungan yang lebih efektif dan memberikan pengalaman pelanggan yang terbaik.
+
+Platform CRM berbasis cloud modern dapat diakses dari perangkat apa pun, yang artinya transaksi Anda tidak semua terjebak di kantor. Dengan akses mobile CRM dan pemberitahuan ponsel smartphone Anda, Sales Anda tidak akan kehilangan sesuatu yang penting, baik di pesawat, di kantor klien, atau sedang rapat.
+
+Apa yang CRM bisa lakukan untuk saya?
+
+etika bisnis Anda baru dimulai, Anda akan melacak pelanggan melalui email, buku alamat dan spreadsheet. Tetapi sekarang perusahaan Anda sedang bertumbuh dan itu berarti, lebih banyak peluang untuk mengubah cara Anda menjalankan bisnis Anda.
+- Spreadsheet ? sulit untuk diperbarui, sulit untuk tetap sinkron dengan data yang tim Anda miliki.
+- Informasi pelanggan yang berharga tersimpan di kotak masuk / inbox email karyawan Anda.
+- Catatan ? bisa saja hilang atau dibuang.
+- Komunikasi pelanggan pun menjadi tidak konsisten antara karyawan Anda.
+
