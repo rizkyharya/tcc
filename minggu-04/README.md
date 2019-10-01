@@ -3,6 +3,7 @@
 https://medium.com/barantum/apa-itu-crm-e8c3db28f97e
 
 CRM ?
+
 ![alt text](IMG4/crm.PNG)
 
 CRM — Customer Relationship Management — adalah software sistem informasi yang membantu individu dan tim memaksimalkan komunikasi dengan pelanggan dan upaya penjualan mereka. CRM dapat membangun hubungan yang lebih efektif dan memberikan pengalaman pelanggan yang terbaik.
