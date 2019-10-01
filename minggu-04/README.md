@@ -29,3 +29,7 @@ Aplikasi CRM membantu Anda dan tim Anda
 
 ![alt text](IMG4/crm3.PNG)
 
+contoh Softwarenya
+
+![alt text](IMG4/sales-pipeline-leads.jpg)
+
