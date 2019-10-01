@@ -1,5 +1,7 @@
 # PRAKTIKUM KCC MINGGU 4
 
+https://medium.com/barantum/apa-itu-crm-e8c3db28f97e
+
 CRM ?
 ![alt text](IMG4/crm.PNG)
 
@@ -14,4 +16,15 @@ etika bisnis Anda baru dimulai, Anda akan melacak pelanggan melalui email, buku 
 - Informasi pelanggan yang berharga tersimpan di kotak masuk / inbox email karyawan Anda.
 - Catatan ? bisa saja hilang atau dibuang.
 - Komunikasi pelanggan pun menjadi tidak konsisten antara karyawan Anda.
+
+nah Di situlah peran dari Aplikasi CRM
+
+![alt text](IMG4/crm2.PNG)
+
+Aplikasi CRM membantu Anda dan tim Anda
+1. Menggabungkan semua data Anda ke dalam satu lokasi yang mudah diakses. CRM memusatkan data pelanggan Anda sehingga setiap orang di perusahaan Anda dapat mengakses semua informasi yang mereka butuhkan dari satu platform.
+2. Jual lebih banyak dan lebih cepat. Harus melakukan entri data secara manual adalah salah satu penyebab hilangnya produktivitas terbesar dari tenaga penjualan/ tim sales Anda. Dengan CRM maka Anda dapat mengotomatiskan banyak tugas admin yang berulang ini. Sehingga tim Anda dapat menghabiskan lebih sedikit waktu untuk mengetik dan lebih banyak waktu untuk memaksimalkan penjualan.
+3. DLL
+
+![alt text](IMG4/crm3.PNG)
 
