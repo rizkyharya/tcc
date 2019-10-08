@@ -4,7 +4,7 @@ COCKROACHDB
 
 1. INSTAL
 BUKA DOCKER KEMUDIAN COPY PERINTAH "docker pull cockroachdb/cockroach"
-![alt text](IMG5/1.PNG)
+![alt text](IMG5/1.png)
 2. KONFIGURASI
 3. BUAT DATABASE
 4. BUAT TABEL
