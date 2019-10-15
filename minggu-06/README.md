@@ -50,3 +50,17 @@ gunakan perintah ```docker run -d redis```
 $ docker run -d redis
 a2dd792900f9ef6e5d2922bc446f87a2c8df34d0560ce4f2c372a7850ead0710
 ```
+
+STEP 2 "MENCARI KONTAINER YANG BERJALAN"
+
+gunakan perintah ```docker ps```
+
+```
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+a2dd792900f9        redis               "docker-entrypoint.s…"   12 minutes ago      Up 12 minutes       6379/tcp            fervent_agnesi
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+a2dd792900f9        redis               "docker-entrypoint.s…"   13 minutes ago      Up 13 minutes       6379/tcp            fervent_agnesi
+$
+```
