@@ -64,3 +64,5 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 a2dd792900f9        redis               "docker-entrypoint.s…"   13 minutes ago      Up 13 minutes       6379/tcp            fervent_agnesi
 $
 ```
+
+perintah ini juga menampilkan nama dan ID yang dikenali yang dapat digunakan untuk mencari tahu informasi tentang masing-masing container.
