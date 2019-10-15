@@ -97,3 +97,13 @@ $ docker port redisDynamic 6379
 0.0.0.0:32768
 ```
 
+STEP 5 "PERSISTING DATA"
+
+gunakan perintah 
+
+```docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis```
+
+```
+$ docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis
+ab09818c890944ecea1ad911ce62dfa768d35038960fd77a95fe633d839c8064
+```
