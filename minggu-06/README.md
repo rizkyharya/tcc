@@ -77,3 +77,23 @@ gunakan perintah
 $ docker run -d --name redisHostPort -p 6379:6379 redis:latest
 27a5ff87c2ed35c3aeaee1f4f966fd7215ef5f7dbb2462adb204bcb679318474
 ```
+
+STEP 4 "MENGASKSES REDIS"
+
+gunakan perintah
+
+```docker run -d --name redisDynamic -p 6379 redis:latest```
+
+```
+docker run -d --name redisDynamic -p 6379 redis:latest
+```
+
+Sementara ini berhasil, sekarang tidak tahu port mana yang telah ditetapkan. Untungnya, ini ditemukan via
+
+``` docker port redisDynamic 6379```
+
+```
+$ docker port redisDynamic 6379
+0.0.0.0:32768
+```
+
