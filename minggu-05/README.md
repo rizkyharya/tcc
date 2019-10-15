@@ -2,17 +2,23 @@
 
 COCKROACHDB
 
-1. INSTAL
+INSTAL
 
 BUKA DOCKER KEMUDIAN COPY PERINTAH "docker pull cockroachdb/cockroach"
+![alt text](IMG5/11.png)
+
+Menjalankan Container cockroachdb
+
 ![alt text](IMG5/1.png)
 
-2. KONFIGURASI
+Masuk ke container
 
-3. BUAT DATABASE
+![alt text](IMG5/2.png)
 
-4. BUAT TABEL
+Membuat database dan menggunakan database
 
-5. UI DATA
+![alt text](IMG5/3.png)
 
-6. QUERY DATA
+membuat table dan mengisi table
+
+![alt text](IMG5/4.png)
