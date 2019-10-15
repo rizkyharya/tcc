@@ -66,3 +66,14 @@ $
 ```
 
 perintah ini juga menampilkan nama dan ID yang dikenali yang dapat digunakan untuk mencari tahu informasi tentang masing-masing container.
+
+STEP 3 "MENGASKSES REDIS"
+
+gunakan perintah 
+
+``` docker run -d --name redisHostPort -p 6379:6379 redis:latest```
+
+```
+$ docker run -d --name redisHostPort -p 6379:6379 redis:latest
+27a5ff87c2ed35c3aeaee1f4f966fd7215ef5f7dbb2462adb204bcb679318474
+```
