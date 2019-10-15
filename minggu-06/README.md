@@ -1,6 +1,7 @@
 # PRAKTIKUM KCC MINGGU 6
 
 URL
+
 https://www.katacoda.com/courses/docker/deploying-first-container
 
 https://www.katacoda.com/courses/docker/create-nginx-static-web-server
@@ -8,7 +9,9 @@ https://www.katacoda.com/courses/docker/create-nginx-static-web-server
 https://www.katacoda.com/courses/docker/2
 
 STEP 1 "UNTUK MENCARI IMAGE UNTUK REDIS"
-docker search redis
+
+gunakan perintah ```docker search redis```
+
 ```
 $ docker search redis
 NAME                             DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
@@ -37,4 +40,13 @@ tiredofit/redis                  Redis Server w/ Zabbix monitoring and S6 Ove…
 wodby/redis                      Redis container image with orchestration        1                                       [OK]
 cflondonservices/redis           Docker image for running redis                  0
 xetamus/redis-resource           forked redis-resource                           0                                       [OK]
+```
+
+untuk menjalankan dilatar belakang
+
+gunakan perintah ```docker run -d redis```
+
+```
+$ docker run -d redis
+a2dd792900f9ef6e5d2922bc446f87a2c8df34d0560ce4f2c372a7850ead0710
 ```
