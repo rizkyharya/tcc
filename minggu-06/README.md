@@ -110,13 +110,13 @@ STEP 6 "MENJALANKAN CONTAINER DI LATAR BELAKANG"
 
 gunakan perintah 
 
-```$ docker run ubuntu ps
+``` $ docker run ubuntu ps
   PID TTY          TIME CMD
     1 ?        00:00:00 ps
 docker run -it ubuntu bash
-$ docker run -it ubuntu bash```
+$ docker run -it ubuntu bash ```
 
-#Menyebarkan Situs HTML Statis sebagai Wadah#
+Menyebarkan Situs HTML Statis sebagai Wadah
 
 https://www.katacoda.com/courses/docker/create-nginx-static-web-server
 
@@ -147,4 +147,4 @@ ubuntu              latest              16508e5c265d        14 months ago       
 redis               latest              4e8db158f18d        14 months ago       83.4MB
 weaveworks/scope    1.9.1               4b07159e407b        15 months ago       68MB
 alpine              latest              11cd0b38bc3c        15 months ago       4.41MB
-$```
+$ ```
