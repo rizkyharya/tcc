@@ -1,5 +1,7 @@
 # PRAKTIKUM KCC MINGGU 7
 
+#ZEIT
+
 1. buka ZEIT.com
 2. daftar menggunakan github anda
 3. instal node js
