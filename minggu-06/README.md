@@ -4,6 +4,8 @@ URL
 
 https://www.katacoda.com/courses/docker/deploying-first-container
 
+https://www.katacoda.com/courses/docker/create-nginx-static-web-server
+
 https://www.katacoda.com/courses/docker/2
 
 STEP 1 "UNTUK MENCARI IMAGE UNTUK REDIS"
@@ -118,7 +120,6 @@ $ docker run -it ubuntu bash ```
 
 Menyebarkan Situs HTML Statis sebagai Wadah
 
-https://www.katacoda.com/courses/docker/create-nginx-static-web-server
 
 Step 1 - Create Dockerfile
 
