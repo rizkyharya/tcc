@@ -120,4 +120,31 @@ $ docker run -it ubuntu bash```
 
 https://www.katacoda.com/courses/docker/create-nginx-static-web-server
 
-STEP 1 ""
+Step 1 - Create Dockerfile
+
+``` FROM nginx:alpine
+COPY . /usr/share/nginx/html ```
+
+![alt text](IMG5/11.png)
+
+Step 2 - Build Docker Image
+
+``` $ Step 1 - Create Dockerfile
+bash: Step: command not found
+$ docker build -t webserver-image:v1 .
+Sending build context to Docker daemon  3.072kB
+Step 1/2 : FROM nginx:alpine
+ ---> dfc78cd150cf
+Step 2/2 : COPY . /usr/share/nginx/html
+ ---> 7e5896d88ce8
+Successfully built 7e5896d88ce8
+Successfully tagged webserver-image:v1
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+webserver-image     v1                  7e5896d88ce8        2 seconds ago       21.2MB
+nginx               alpine              dfc78cd150cf        15 hours ago        21.2MB
+ubuntu              latest              16508e5c265d        14 months ago       84.1MB
+redis               latest              4e8db158f18d        14 months ago       83.4MB
+weaveworks/scope    1.9.1               4b07159e407b        15 months ago       68MB
+alpine              latest              11cd0b38bc3c        15 months ago       4.41MB
+$```
