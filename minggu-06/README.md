@@ -4,8 +4,6 @@ URL
 
 https://www.katacoda.com/courses/docker/deploying-first-container
 
-https://www.katacoda.com/courses/docker/create-nginx-static-web-server
-
 https://www.katacoda.com/courses/docker/2
 
 STEP 1 "UNTUK MENCARI IMAGE UNTUK REDIS"
@@ -107,3 +105,19 @@ gunakan perintah
 $ docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis
 ab09818c890944ecea1ad911ce62dfa768d35038960fd77a95fe633d839c8064
 ```
+
+STEP 6 "MENJALANKAN CONTAINER DI LATAR BELAKANG"
+
+gunakan perintah 
+
+```$ docker run ubuntu ps
+  PID TTY          TIME CMD
+    1 ?        00:00:00 ps
+docker run -it ubuntu bash
+$ docker run -it ubuntu bash```
+
+#Menyebarkan Situs HTML Statis sebagai Wadah#
+
+https://www.katacoda.com/courses/docker/create-nginx-static-web-server
+
+STEP 1 ""
