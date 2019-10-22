@@ -112,25 +112,28 @@ STEP 6 "MENJALANKAN CONTAINER DI LATAR BELAKANG"
 
 gunakan perintah 
 
-``` $ docker run ubuntu ps
+```
+$ docker run ubuntu ps
   PID TTY          TIME CMD
     1 ?        00:00:00 ps
 docker run -it ubuntu bash
-$ docker run -it ubuntu bash ```
+$ docker run -it ubuntu bash
+```
 
 
 Menyebarkan Situs HTML Statis sebagai Wadah
 
 Step 1 - Create Dockerfile
 
-``` FROM nginx:alpine ```
-``` COPY . /usr/share/nginx/html ```
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
 
 ![alt text](IMG6/1.png)
 
 Step 2 - Build Docker Image
 
-``` $ Step 1 - Create Dockerfile
+```
+$ Step 1 - Create Dockerfile
 bash: Step: command not found
 $ docker build -t webserver-image:v1 .
 Sending build context to Docker daemon  3.072kB
@@ -148,4 +151,14 @@ ubuntu              latest              16508e5c265d        14 months ago       
 redis               latest              4e8db158f18d        14 months ago       83.4MB
 weaveworks/scope    1.9.1               4b07159e407b        15 months ago       68MB
 alpine              latest              11cd0b38bc3c        15 months ago       4.41MB
-$ 
+$
+```
+
+Step 3 - Run
+
+```
+$ docker run -d -p 80:80 webserver-image:v1
+80747434a7c484fba048cfcfef1295c269def333e829956c779ef0b6357bc155
+$ curl docker
+<h1>Hello World</h1>
+```
