@@ -58,4 +58,11 @@ We suggest that you begin by typing:
   cd my-next-project
   npm run dev
 ```
-7.
+
+7. kemudian "cd my-next-project"
+```
+C:\Users\Student>cd my-next-project
+C:\Users\Student\my-next-project>
+```
+
+8. 
