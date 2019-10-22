@@ -65,4 +65,18 @@ C:\Users\Student>cd my-next-project
 C:\Users\Student\my-next-project>
 ```
 
-8. 
+8. setelah itu "now"
+```
+C:\Users\Student\my-next-project>now
+> Deploying ~\my-next-project under rizkyharya38
+> Using project my-next-project
+> NOTE: This is the first deployment in the my-next-project project. It will be promoted to production.
+> NOTE: To deploy to production in the future, run `now --prod`.
+> https://my-next-project-4sx9c2n17.now.sh [1s]
+> Ready! Deployed to https://my-next-project.rizkyharya38.now.sh [in clipboard] [30s]
+
+C:\Users\Student\my-next-project>
+```
+
+9. klik link yang disediakan "https://my-next-project.rizkyharya38.now.sh"
+![alt text](IMG7/1.PNG)
