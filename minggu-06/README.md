@@ -125,7 +125,7 @@ Step 1 - Create Dockerfile
 ``` FROM nginx:alpine
 COPY . /usr/share/nginx/html ```
 
-![alt text](IMG5/11.png)
+![alt text](IMG6/1.png)
 
 Step 2 - Build Docker Image
 
