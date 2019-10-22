@@ -121,7 +121,7 @@ $ docker run -it ubuntu bash
 ```
 
 
-Menyebarkan Situs HTML Statis sebagai Wadah
+## Menyebarkan Situs HTML Statis sebagai Wadah ##
 
 Step 1 - Create Dockerfile
 
@@ -162,3 +162,8 @@ $ docker run -d -p 80:80 webserver-image:v1
 $ curl docker
 <h1>Hello World</h1>
 ```
+
+## Building Container Images ##
+
+Step 1 - Base Images
+
