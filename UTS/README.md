@@ -1,6 +1,7 @@
 # UTS
 
 1. MEMBUAT AKUN DOCKERHUB
+
 ![alt text](IMGuts/1.png)
 
 2. MEMBUAT FOLDER "RIZH"
