@@ -47,7 +47,7 @@ ubuntu                    latest              2ca708c1c9cc        5 weeks ago   
 
  5. MENJALANKAN IMAGE
  ```
- PS C:\Users\User\rizh> docker run -d -p 9090:80  --name=rizh rizh/rizh:v2
+ PS C:\Users\User\rizh> docker run -d -p 9099:80  --name=rizh rizh/rizh:v2
 0f12ddba6191c41d5c46b4a4d878ad4972c4211434d9f162a533a9271cdcd778
  ```
 
@@ -57,10 +57,12 @@ ubuntu                    latest              2ca708c1c9cc        5 weeks ago   
  ```
 
  7. CEK DI DOCKER HUB
-
+ 
  ![alt text](IMGuts/2.png)
 
- 8. tes di localhost
+ 8. TEST DI LOCALHOST
+
  ```
- 
+LOCALHOST:9099
  ```
+  ![alt text](IMGuts/3.jpg)
