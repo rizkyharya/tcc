@@ -25,7 +25,7 @@ COPY . /usr/share/nginx/html
 
  4. KEMUDIAN BUILD IMAGE
  ```
- PS C:\Users\User\rizh> docker build -t rizh/rizh:v1 .
+ PS C:\Users\User\rizh> docker build -t rizh/rizh:v2 .
 Sending build context to Docker daemon  3.072kB
 Step 1/2 : FROM nginx:alpine
  ---> b6753551581f
@@ -39,7 +39,7 @@ CEK DOCKER IMAGE
 ```
 PS C:\Users\User\rizh> docker images
 REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
-rizh/rizh                 v1                  e69d8f68ab90        51 seconds ago      21.4MB
+rizh/rizh                 v2                  e69d8f68ab90        51 seconds ago      21.4MB
 nginx                     alpine              b6753551581f        5 days ago          21.4MB
 cockroachdb/cockroach     latest              82ebb27f44e8        4 weeks ago         190MB
 ubuntu                    latest              2ca708c1c9cc        5 weeks ago         64.2MB
@@ -47,16 +47,20 @@ ubuntu                    latest              2ca708c1c9cc        5 weeks ago   
 
  5. MENJALANKAN IMAGE
  ```
- PS C:\Users\User\rizh> docker run -d -p 9090:80  --name=rizh rizh/rizh:v1
+ PS C:\Users\User\rizh> docker run -d -p 9090:80  --name=rizh rizh/rizh:v2
 0f12ddba6191c41d5c46b4a4d878ad4972c4211434d9f162a533a9271cdcd778
  ```
 
  6. PUSH IMAGE KE DOCKER HUB
  ```
- $ docker push rizh/rizh:v1
+ $ docker push rizh/rizh:v2
  ```
 
- 7. tes di localhost
+ 7. CEK DI DOCKER HUB
+
+ ![alt text](IMGuts/2.png)
+
+ 8. tes di localhost
  ```
  
  ```
