@@ -30,13 +30,16 @@ Sending build context to Docker daemon  3.072kB
 Step 1/2 : FROM nginx:alpine
  ---> b6753551581f
 Step 2/2 : COPY . /usr/share/nginx/html
- ---> 8b84c436221e
-Successfully built 8b84c436221e
+ ---> e69d8f68ab90
+Successfully built e69d8f68ab90
 Successfully tagged rizh/rizh:v1
-SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
+```
+
+CEK DOCKER IMAGE
+```
 PS C:\Users\User\rizh> docker images
 REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
-rizh/rizh                 v1                  8b84c436221e        51 seconds ago      21.4MB
+rizh/rizh                 v1                  e69d8f68ab90        51 seconds ago      21.4MB
 nginx                     alpine              b6753551581f        5 days ago          21.4MB
 cockroachdb/cockroach     latest              82ebb27f44e8        4 weeks ago         190MB
 ubuntu                    latest              2ca708c1c9cc        5 weeks ago         64.2MB
@@ -46,12 +49,14 @@ ubuntu                    latest              2ca708c1c9cc        5 weeks ago   
  ```
  PS C:\Users\User\rizh> docker run -d -p 9090:80  --name=rizh rizh/rizh:v1
 0f12ddba6191c41d5c46b4a4d878ad4972c4211434d9f162a533a9271cdcd778
-PS C:\Users\User\rizh> docker build -t rizh/rizh:v1 .
-Sending build context to Docker daemon  3.072kB
-Step 1/2 : FROM nginx:alpine
- ---> b6753551581f
-Step 2/2 : COPY . /usr/share/nginx/html
- ---> e69d8f68ab90
-Successfully built e69d8f68ab90
-Successfully tagged rizh/rizh:v1
+ ```
+
+ 6. PUSH IMAGE KE DOCKER HUB
+ ```
+ $ docker push rizh/rizh:v1
+ ```
+
+ 7. tes di localhost
+ ```
+ 
  ```
