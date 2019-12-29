@@ -24,4 +24,9 @@ https://medium.com/@mtngt/docker-flask-a-simple-tutorial-bbcb2f4110b5
 
 ![alt text](IMG8/4.png)
 
-6. 
+6. file app.py, dockerfile & requirement.txt harus di dalam satu folder.
+
+7. cek docker imgage
+![alt text](IMG8/6.png)
+
+ternyata image belum terbentuk
